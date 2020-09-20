@@ -1,2 +1,3 @@
 # react-custom-hooks
-Created with CodeSandbox
+
+How React custom hooks work and creating our own custom hook.
