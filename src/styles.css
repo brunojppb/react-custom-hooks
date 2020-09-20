@@ -1,0 +1,68 @@
+html,
+body {
+  background-color: rgb(243, 239, 236);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.button {
+  background: none;
+  border: none;
+  background-color: #222;
+  border-radius: 4px;
+  padding: 8px;
+  color: white;
+  transition: 0.2s ease-in-out background-color;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+.shadow-overlay {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 1, 1, 0.5);
+}
+
+.my-modal {
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.modal-header {
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 8px 0;
+}
+
+.modal-footer button {
+  background: none;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.modal-footer button:first-child {
+  border-color: red;
+  margin-right: 8px;
+}
+
+.modal-footer button:last-child {
+  border-color: green;
+}
